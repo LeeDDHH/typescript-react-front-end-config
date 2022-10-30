@@ -16,9 +16,10 @@
 |            typescript            |  4.8.4  |
 |              react               | 18.2.0  |
 |            react-dom             | 18.2.0  |
+|             lefthook             |  1.1.3  |
 
 ## インストール
 
 ```shell
-yarn add --dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier prettier
+yarn add --dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier prettier lefthook
 ```

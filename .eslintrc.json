@@ -26,7 +26,17 @@
     "prettier"
   ],
   "rules": {
+    "react/react-in-jsx-scope": "off", // v17からReactをimport不要になった
     "react/prop-types": "off",
+    // importをアルファベット順にする
+    "import/order": [
+      "error",
+      {
+        "alphabetize": {
+          "order": "asc"
+        }
+      }
+    ],
     "indent": ["error", 2, { "offsetTernaryExpressions": true }],
     "linebreak-style": ["error", "unix"],
     "quotes": ["error", "single"],

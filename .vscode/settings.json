@@ -15,9 +15,11 @@
       "other": "on"
     }
   },
-  "editor.formatOnSave": true,
+  // ESLint
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
+  // Prettier
+  "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
